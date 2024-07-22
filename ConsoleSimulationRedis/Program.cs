@@ -35,7 +35,7 @@ class Program
             {
                 await connection.OpenAsync();
 
-                var query = "SELECT id, ST_AsText(geom) AS geom, created_at FROM geometries_cache";
+                var query = "SELECT id, ST_AsText(geom) AS geom, created_at FROM geometries";
 
                 using (var command = new NpgsqlCommand(query, connection))
                 using (var reader = await command.ExecuteReaderAsync())
