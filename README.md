@@ -19,6 +19,9 @@ Let's access our Postgis database and within the public schema create our databa
 **Database:**
 `CREATE DATABASE geometries;`
 
+**Postgis Extension:**
+`CREATE EXTENSION postgis;`
+
 **Table:**
 `
 CREATE TABLE geometries (
