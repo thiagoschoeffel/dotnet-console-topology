@@ -36,3 +36,17 @@ Let's run the python script to populate the geometry table with 100 thousand ran
 `cd ConsoleSimulationRedis/Utils` and execute `python FakerTerritories.py`
 
 ### 🚀 We already have everything ready to execute the project!
+
+Example:
+
+Database with fake geometries:
+
+![image](https://github.com/user-attachments/assets/c742a939-849b-459b-b4cd-09b502e0249c)
+
+Exectution with data from database:
+
+![image](https://github.com/user-attachments/assets/900d9471-1eba-4811-b641-365ff0c0208a)
+
+Execution with data from cache:
+
+![image](https://github.com/user-attachments/assets/5578a0f9-d0ee-4d8e-8b10-be88638d4800)
