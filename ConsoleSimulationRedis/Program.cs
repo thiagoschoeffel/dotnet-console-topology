@@ -27,7 +27,7 @@ class Program
         }
         else
         {
-            var connectionString = "Server=127.0.0.1;Port=5432;Database=analysis;User Id=postgres;Password=postgis;";
+            var connectionString = "Server=127.0.0.1;Port=5432;Database=geometries;User Id=postgres;Password=postgis;";
 
             dataTable = new DataTable();
 
