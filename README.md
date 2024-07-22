@@ -14,8 +14,12 @@ Postgis:
 Redis:
 `docker run --name redis -d -p 6379:6379 redis`
 
-Let's access our Postgis database and within the public schema create our table:
+Let's access our Postgis database and within the public schema create our database and table:
 
+**Database:**
+`CREATE DATABASE geometries;`
+
+**Table:**
 `
 CREATE TABLE geometries (
     id SERIAL PRIMARY KEY,
